@@ -1,0 +1,315 @@
+{
+  "outliers_removed_from_training": 677,
+  "holdout_sep_oct": [
+    {
+      "model": "Hybrid (final)",
+      "MAE": 39.5283,
+      "MAPE_%": 1.741,
+      "RMSE": 57.0653,
+      "Bias_%": -0.5116,
+      "n": 9379,
+      "MAPE_%_incl_outliers": 4.263
+    },
+    {
+      "model": "Hybrid + quote_signal",
+      "MAE": 40.0549,
+      "MAPE_%": 1.7804,
+      "RMSE": 58.014,
+      "Bias_%": -0.6578,
+      "n": 9379,
+      "MAPE_%_incl_outliers": 4.2922
+    },
+    {
+      "model": "Hybrid, no lane effect",
+      "MAE": 41.4757,
+      "MAPE_%": 1.822,
+      "RMSE": 59.8982,
+      "Bias_%": -0.4921,
+      "n": 9379,
+      "MAPE_%_incl_outliers": 4.3462
+    },
+    {
+      "model": "Hybrid, no quarter-end ramp",
+      "MAE": 50.2297,
+      "MAPE_%": 2.1342,
+      "RMSE": 75.9734,
+      "Bias_%": -1.553,
+      "n": 9379,
+      "MAPE_%_incl_outliers": 4.6313
+    },
+    {
+      "model": "Plain LightGBM (all raw features)",
+      "MAE": 57.8918,
+      "MAPE_%": 2.431,
+      "RMSE": 86.1096,
+      "Bias_%": -1.7324,
+      "n": 9379,
+      "MAPE_%_incl_outliers": 4.9152
+    },
+    {
+      "model": "Baseline: $/mile by equipment x distance",
+      "MAE": 83.3913,
+      "MAPE_%": 3.7445,
+      "RMSE": 115.8089,
+      "Bias_%": -0.7235,
+      "n": 9379,
+      "MAPE_%_incl_outliers": 6.2613
+    }
+  ],
+  "rolling_folds": [
+    {
+      "fold": "2025-07 to 2025-08",
+      "model": "Hybrid (final)",
+      "MAE": 40.6053,
+      "MAPE_%": 1.7678,
+      "RMSE": 57.9954,
+      "Bias_%": -1.0271,
+      "n": 9538
+    },
+    {
+      "fold": "2025-07 to 2025-08",
+      "model": "Hybrid + quote_signal",
+      "MAE": 60.7609,
+      "MAPE_%": 2.7142,
+      "RMSE": 102.9057,
+      "Bias_%": -1.4839,
+      "n": 9538
+    },
+    {
+      "fold": "2025-07 to 2025-08",
+      "model": "Hybrid, no lane effect",
+      "MAE": 41.6202,
+      "MAPE_%": 1.8087,
+      "RMSE": 59.5041,
+      "Bias_%": -0.9655,
+      "n": 9538
+    },
+    {
+      "fold": "2025-07 to 2025-08",
+      "model": "Hybrid, no quarter-end ramp",
+      "MAE": 81.7849,
+      "MAPE_%": 3.585,
+      "RMSE": 106.7587,
+      "Bias_%": 3.441,
+      "n": 9538
+    },
+    {
+      "fold": "2025-07 to 2025-08",
+      "model": "Plain LightGBM (all raw features)",
+      "MAE": 90.2522,
+      "MAPE_%": 3.3778,
+      "RMSE": 147.901,
+      "Bias_%": 1.3961,
+      "n": 9538
+    },
+    {
+      "fold": "2025-07 to 2025-08",
+      "model": "Baseline: $/mile by equipment x distance",
+      "MAE": 86.7617,
+      "MAPE_%": 3.85,
+      "RMSE": 122.0243,
+      "Bias_%": -0.6616,
+      "n": 9538
+    },
+    {
+      "fold": "2025-08 to 2025-09",
+      "model": "Hybrid (final)",
+      "MAE": 36.2071,
+      "MAPE_%": 1.6054,
+      "RMSE": 53.5378,
+      "Bias_%": -0.1647,
+      "n": 9297
+    },
+    {
+      "fold": "2025-08 to 2025-09",
+      "model": "Hybrid + quote_signal",
+      "MAE": 52.8259,
+      "MAPE_%": 2.3162,
+      "RMSE": 97.7403,
+      "Bias_%": -0.4161,
+      "n": 9297
+    },
+    {
+      "fold": "2025-08 to 2025-09",
+      "model": "Hybrid, no lane effect",
+      "MAE": 38.3176,
+      "MAPE_%": 1.6866,
+      "RMSE": 56.3969,
+      "Bias_%": -0.1264,
+      "n": 9297
+    },
+    {
+      "fold": "2025-08 to 2025-09",
+      "model": "Hybrid, no quarter-end ramp",
+      "MAE": 45.7846,
+      "MAPE_%": 1.9711,
+      "RMSE": 71.0172,
+      "Bias_%": -0.7075,
+      "n": 9297
+    },
+    {
+      "fold": "2025-08 to 2025-09",
+      "model": "Plain LightGBM (all raw features)",
+      "MAE": 65.9114,
+      "MAPE_%": 2.8071,
+      "RMSE": 120.2118,
+      "Bias_%": -0.9286,
+      "n": 9297
+    },
+    {
+      "fold": "2025-08 to 2025-09",
+      "model": "Baseline: $/mile by equipment x distance",
+      "MAE": 82.7381,
+      "MAPE_%": 3.7161,
+      "RMSE": 117.9281,
+      "Bias_%": 0.4708,
+      "n": 9297
+    },
+    {
+      "fold": "2025-09 to 2025-10",
+      "model": "Hybrid (final)",
+      "MAE": 39.5283,
+      "MAPE_%": 1.741,
+      "RMSE": 57.0653,
+      "Bias_%": -0.5116,
+      "n": 9379
+    },
+    {
+      "fold": "2025-09 to 2025-10",
+      "model": "Hybrid + quote_signal",
+      "MAE": 40.0549,
+      "MAPE_%": 1.7804,
+      "RMSE": 58.014,
+      "Bias_%": -0.6578,
+      "n": 9379
+    },
+    {
+      "fold": "2025-09 to 2025-10",
+      "model": "Hybrid, no lane effect",
+      "MAE": 41.4757,
+      "MAPE_%": 1.822,
+      "RMSE": 59.8982,
+      "Bias_%": -0.4921,
+      "n": 9379
+    },
+    {
+      "fold": "2025-09 to 2025-10",
+      "model": "Hybrid, no quarter-end ramp",
+      "MAE": 50.2297,
+      "MAPE_%": 2.1342,
+      "RMSE": 75.9734,
+      "Bias_%": -1.553,
+      "n": 9379
+    },
+    {
+      "fold": "2025-09 to 2025-10",
+      "model": "Plain LightGBM (all raw features)",
+      "MAE": 57.8918,
+      "MAPE_%": 2.431,
+      "RMSE": 86.1096,
+      "Bias_%": -1.7324,
+      "n": 9379
+    },
+    {
+      "fold": "2025-09 to 2025-10",
+      "model": "Baseline: $/mile by equipment x distance",
+      "MAE": 83.3913,
+      "MAPE_%": 3.7445,
+      "RMSE": 115.8089,
+      "Bias_%": -0.7235,
+      "n": 9379
+    }
+  ],
+  "rolling_mape_table": [
+    {
+      "model": "Hybrid (final)",
+      "2025-07 to 2025-08": 1.768,
+      "2025-08 to 2025-09": 1.605,
+      "2025-09 to 2025-10": 1.741,
+      "mean": 1.705
+    },
+    {
+      "model": "Hybrid + quote_signal",
+      "2025-07 to 2025-08": 2.714,
+      "2025-08 to 2025-09": 2.316,
+      "2025-09 to 2025-10": 1.78,
+      "mean": 2.27
+    },
+    {
+      "model": "Hybrid, no lane effect",
+      "2025-07 to 2025-08": 1.809,
+      "2025-08 to 2025-09": 1.687,
+      "2025-09 to 2025-10": 1.822,
+      "mean": 1.772
+    },
+    {
+      "model": "Hybrid, no quarter-end ramp",
+      "2025-07 to 2025-08": 3.585,
+      "2025-08 to 2025-09": 1.971,
+      "2025-09 to 2025-10": 2.134,
+      "mean": 2.563
+    },
+    {
+      "model": "Plain LightGBM (all raw features)",
+      "2025-07 to 2025-08": 3.378,
+      "2025-08 to 2025-09": 2.807,
+      "2025-09 to 2025-10": 2.431,
+      "mean": 2.872
+    },
+    {
+      "model": "Baseline: $/mile by equipment x distance",
+      "2025-07 to 2025-08": 3.85,
+      "2025-08 to 2025-09": 3.716,
+      "2025-09 to 2025-10": 3.745,
+      "mean": 3.77
+    }
+  ],
+  "unseen_cities": {
+    "held_out_cities": [
+      "Bakersfield",
+      "Hartford",
+      "Memphis",
+      "New York",
+      "San Antonio",
+      "Toledo",
+      "Tulsa",
+      "Washington"
+    ],
+    "loads_touching_unseen_cities": {
+      "MAE": 50.724064123261016,
+      "MAPE_%": 2.254614267344978,
+      "RMSE": 72.50995999200005,
+      "Bias_%": -0.3439050183305896,
+      "n": 2477
+    },
+    "loads_between_seen_cities": {
+      "MAE": 39.92227827202735,
+      "MAPE_%": 1.768593382283918,
+      "RMSE": 58.12338210399547,
+      "Bias_%": -0.5583108859455317,
+      "n": 6902
+    }
+  },
+  "random_split_80_20": {
+    "Hybrid (final)": {
+      "MAE": 34.497855341104525,
+      "MAPE_%": 1.5330511543418892,
+      "RMSE": 49.862231195345856,
+      "Bias_%": 0.03184832030166139,
+      "n": 9457
+    },
+    "Plain LightGBM (all raw features)": {
+      "MAE": 35.447470819592276,
+      "MAPE_%": 1.6135593959586219,
+      "RMSE": 51.09548675769991,
+      "Bias_%": 0.050594286923664446,
+      "n": 9457
+    }
+  },
+  "linear_coefficients_jan_aug": {
+    "intercept": -0.02154422350799106,
+    "log_market_index": -0.04311930970300118,
+    "trend_years": 0.06268123954516257,
+    "quarter_end_ramp": 0.04050911294639967
+  }
+}

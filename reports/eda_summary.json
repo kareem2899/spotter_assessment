@@ -1,0 +1,97 @@
+{
+  "rows": {
+    "train": 48000,
+    "validation": 12000
+  },
+  "date_range": {
+    "train": [
+      "2025-01-01",
+      "2025-10-31"
+    ],
+    "validation": [
+      "2025-11-01",
+      "2025-12-31"
+    ]
+  },
+  "missing": {
+    "train": {
+      "weight": 300,
+      "market_index": 374
+    },
+    "validation": {
+      "weight": 165,
+      "market_index": 249
+    }
+  },
+  "duplicates": {
+    "load_id": 0,
+    "full_rows": 0
+  },
+  "negative_weight": {
+    "train": 292,
+    "validation": 145
+  },
+  "weight_at_cap_47500": {
+    "train": 1204,
+    "validation": 301
+  },
+  "label_outliers": {
+    "count": 677,
+    "share_%": 1.41,
+    "rows_with_abs_log_residual_between_0.25_and_0.6": 0
+  },
+  "clamped_coordinate_rows": {
+    "train": 2052,
+    "validation": 669
+  },
+  "cities": {
+    "train": 64,
+    "validation": 72,
+    "new_in_validation": [
+      "Allentown",
+      "Charlotte",
+      "Chicago",
+      "Jackson",
+      "Knoxville",
+      "Laredo",
+      "Norfolk",
+      "San Diego"
+    ],
+    "validation_rows_touching_new_cities": 1447
+  },
+  "lanes": {
+    "train": 4014
+  },
+  "rate_per_mile_median_by_equipment": {
+    "Dry Van": 2.046,
+    "Flatbed": 2.22,
+    "Reefer": 2.312
+  },
+  "corr_rate_distance": 0.909,
+  "market_index": {
+    "within_day_std": 0.0249,
+    "overall_std": 0.1681,
+    "train_range": [
+      0.676,
+      1.468
+    ],
+    "validation_range": [
+      0.724,
+      1.099
+    ]
+  },
+  "quote_signal": {
+    "train_std": 0.291,
+    "validation_std": 0.22,
+    "train_mean_by_equipment": {
+      "Dry Van": 2.047,
+      "Flatbed": 2.08,
+      "Reefer": 2.084
+    },
+    "validation_mean_by_equipment": {
+      "Dry Van": 2.052,
+      "Flatbed": 2.049,
+      "Reefer": 2.051
+    }
+  }
+}
